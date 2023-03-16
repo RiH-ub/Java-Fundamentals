@@ -6,6 +6,8 @@ public class Fundamentos {
         int sueldo = 3000; // Entera
         double pi = 3.1416; // Decimales (float)
         boolean estado = true; // Booleano
+
+        
         double promedio = (15 + 12 + 15) / 3;
         Double centigrados, farhenhei = 98D;
 
