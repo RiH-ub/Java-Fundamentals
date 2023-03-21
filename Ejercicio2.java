@@ -1,5 +1,5 @@
 /*
- Escribir un programa que  muestre en la pantalla la secuencia de Fibonacci hasta el numero 100
+ Escribir un programa que  muestre en la pantalla la secuencia de Fibonacci hasta el numero 100 
  */
 
 import java.util.Scanner;
