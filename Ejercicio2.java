@@ -1,36 +1,34 @@
-//Escribe un programa que pida al usuario ingresar un número del 1 al 7
-//correspondiente a los días de la semana) y luego imprima el nombre del día de la semana correspondiente.
+/*
+ Escribir un programa que  muestre en la pantalla la secuencia de Fibonacci hasta el numero 100
+ */
 
 import java.util.Scanner;
-
 public class Ejercicio2 {
- 
-    public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese un número del 1 al 7: ");
-        int num = sc.nextInt();
 
-        if (num == 1) {
-            System.out.println("Lunes");
-        } else if (num == 2) {
-            System.out.println("Martes");
-        } else if (num == 3) {
-            System.out.println("Miercoles");
-        } else if (num == 4) {
-            System.out.println("Jueves");
-        } else if (num == 5) {
-            System.out.println("Viernes");
-        } else if (num == 6) {
-            System.out.println("Sabado");
-        } else if (num == 7) {
-            System.out.println("Domingo");
-        } else {
-            System.out.println("Numero invalido");
+    public static void main(String[] args) {
+        int num1 = 0, num2 = 1, sum;
+        System.out.print(num1 + " ");
+        while (num2 <= 100) {
+            System.out.print(num2 + " ");
+            sum = num1 + num2;
+            num1 = num2;
+            num2 = sum;
+        }
+    
+/*
+ Escribir un programa que pida al usuario que ingrese un numero entero y 
+ luego muestre en la pantalla la tabla de multiplicar de ese numero hasta el numero 10
+ */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingresa un número entero: ");
+        int numero = sc.nextInt();
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + (numero*i));
         }
 
-        
         sc.close();
-    }
 
+    }
 }
+
