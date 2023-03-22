@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -43,6 +43,8 @@ public class Ejercicio3 {
         }
 
         System.out.println("El resultado de la " + operacion + " es: " + resultado);
+
+        sc.close();
     }
 
     public static int restar(int a, int b) {
