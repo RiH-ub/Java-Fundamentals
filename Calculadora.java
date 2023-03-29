@@ -9,13 +9,13 @@ public class Calculadora {
         System.out.println("3)  Multiplicación   |");
         System.out.println("4)     División      |");
         
-        System.out.println("¿Qué operación desea realizar? ");
+        System.out.print("¿Qué operación desea realizar?: ");
         int opcion = sc.nextInt();
 
-        System.out.println("Ingrese el primer número:");
+        System.out.print("Ingrese el primer número: ");
         int num1 = sc.nextInt();
 
-        System.out.println("Ingrese el segundo número:");
+        System.out.print("Ingrese el segundo número: ");
         int num2 = sc.nextInt();
 
         int resultado;

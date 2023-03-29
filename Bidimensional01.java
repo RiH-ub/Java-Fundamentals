@@ -4,8 +4,10 @@ public class Bidimensional01 {
         int[] [] miArray = new int[3] [4];
         
         for (int i = 0; i < miArray.length; i++) {      // arreglo con Arraylist         
-            for (int i = )
-            System.out.print
+            for (int j = 0; j < miArray[0].length; i++) {
+
+            }
+            System.out.println(i);
         }
 
     }
