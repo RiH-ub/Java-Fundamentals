@@ -41,24 +41,7 @@ public class Tabla {
         sc.close();
 
         }
-            /*resultado = restar(num1, num2);
-            operacion = "Resta";
             
-        } else if (opcion == 2) {
-            //resultado = sumar(num1, num2);
-            operacion = "Suma";
-
-        } else if (opcion == 3) {
-            //resultado = multiplicar(num1, num2);
-            operacion = "Multiplicación";
-
-        } else if (opcion == 4) {
-            //resultado = dividir(num1, num2);
-            operacion = "Division";
-            */
-        //System.out.println("El resultado de la " + operacion + " es: " + resultado);
-    
-
     static void sumar(int num) { 
         for (int i = 1; i <= 12; i++) { 
         System.out.println(i + " + " + num + " = " + (i + num)); 
