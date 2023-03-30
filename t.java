@@ -1,39 +1,31 @@
 import java.util.Scanner;
 public class t {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
+        // Creamos una matriz de enteros de 2x3
+        int[][] matriz = new int[3][3]; // Aqui se asigna el orden 2x3
         Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Dime tu nombre: ");
-        String nom = sc.nextLine();
 
-        System.out.println("1 sumar ");
-        System.out.println("2 restar ");
-        System.out.println("3 multiplicar ");
-        System.out.println("4 dividir ");
-
-        System.out.print("Escoge una opcion " + nom + ": ");
-        int op = sc.nextInt();
-
-        System.out.print("Escoge un numero: ");
+        while (true){
+        System.out.print("=> ");    
         int num = sc.nextInt();
-
-        if (op == 1) {
-            sumar(num);
+        // Asignamos valores a la matriz
+        matriz[0][0] = num;
+        matriz[0][1] = num;
+            
         }
-        else if (op == 2) {
-            System.out.println("2");
+    /*    matriz[0][1] = 2;
+        matriz[0][2] = 3;
+        matriz[1][0] = 4;
+        matriz[1][1] = 5;
+        matriz[1][2] = 6;
+        matriz[2][2] = 0;
+     */  
+        // Imprimimos la matriz
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
         }
-        else {
-            System.out.println("Opcion invalida");
-            return;
-        }
-        sc.close();
     }
-    static void sumar(int num) {
-        for (int i = 1; i <= 9; i++){
-            System.out.println(i);
-        }
-        }
-
-    
 }
