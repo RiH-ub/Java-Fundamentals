@@ -25,7 +25,7 @@ public class Ejercicio {
         }
 
 
- /*   
+/*   
 Escribe un programa que pida al usuario ingresar un número del 1 al 7
 correspondiente a los días de la semana) y luego imprima el nombre del día de la semana correspondiente.
 */
