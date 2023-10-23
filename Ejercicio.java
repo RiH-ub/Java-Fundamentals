@@ -63,7 +63,6 @@ convertir de Celsius a Fahrenheit es: F = (9/5) * C + 32.
 
         System.out.println("La temperatura de " + celsius + " en grados Fahrenheit es: " + fahrenheit);
 
- 
 /*
 Escribe un programa que pida al usuario ingresar un número y luego imprima
 "Es par" si el número es divisible por 2, y "Es impar" si el número no es divisible
@@ -101,7 +100,6 @@ Escribe un programa que pida al usuario ingresar un año y luego imprima "Es bis
             System.out.println("No es bisiesto");
         }
 
-       
         sc.close();
 
 
