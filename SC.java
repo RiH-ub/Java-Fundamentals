@@ -17,7 +17,6 @@ public class SC{
         
         System.out.print("Tu número 2: ");
         int num2 = sc.nextInt();
-       
 
         int resul = num1 + num2; // La formula de la suma
         System.out.println("Tu numero es " + resul ); // Imprime el resultado
