@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class t {
+public class Matriz2 {
     public static void main(String[] args) {
         int[][] matriz = new int[3][3];
         Scanner sc = new Scanner(System.in);
