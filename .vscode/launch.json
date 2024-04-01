@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "Java-Fundamentals_a3013dc1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
