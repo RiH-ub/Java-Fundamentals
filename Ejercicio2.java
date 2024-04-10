@@ -1,5 +1,5 @@
 /*
- Escribir un programa que  muestre en la pantalla la secuencia de Fibonacci hasta el numero 100 
+Escribir un programa que  muestre en la pantalla la secuencia de Fibonacci hasta el numero 100 
  */
 
 import java.util.Scanner;
@@ -16,8 +16,8 @@ public class Ejercicio2 {
         }
     
 /*
- Escribir un programa que pida al usuario que ingrese un numero entero y 
- luego muestre en la pantalla la tabla de multiplicar de ese numero hasta el numero 10
+Escribir un programa que pida al usuario que ingrese un numero entero y 
+luego muestre en la pantalla la tabla de multiplicar de ese numero hasta el numero 10
  */
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingresa un número entero: ");
