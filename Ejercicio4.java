@@ -17,7 +17,7 @@ public class Ejercicio4 {
                 sumasFilas[i] += matriz[i][j];
                 sumasColumnas[j] += matriz[i][j];
             }
-        }
+        } 
         
         // Imprimir la matriz y las sumas de las filas y columnas
         System.out.println("Matriz:");
