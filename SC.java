@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SC{
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         // Introducir letras
         Scanner sc = new Scanner(System.in);
         System.out.print("Tu nombre: "); // Este es input y solo se usa ".print"

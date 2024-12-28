@@ -14,7 +14,7 @@ public class Libro {
     }
 
     public String getTitulo() {
-        return titulo;
+        return titulo;   
     }
 
     public void setTitulo(String titulo) {
