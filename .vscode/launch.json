@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AAA",
+            "request": "launch",
+            "mainClass": "AAA",
+            "projectName": "Java-Fundamentals_a3013dc1"
+        },
+        {
+            "type": "java",
             "name": "A",
             "request": "launch",
             "mainClass": "A",
